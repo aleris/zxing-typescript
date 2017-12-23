@@ -244,26 +244,6 @@ See [TypeScript Port Info](typescriptport.md) for information regarding porting 
 Status and Roadmap
 ==================
 
-Done:
-- [x] Port root, common and qrcode format and make it compile
-- [x] Add unit test infrastructure, a first unit test and make it pass (common/BitArrayTestCase)
-- [x] Add all unit tests for everything in root, common and qrcode
-- [x] Add one "back box" test for qrcode
-- [x] Add all "back box" tests for qrcode
-- [x] Create browser integration module and demo UI for qrcode
-- [x] Document browser usage
-- [x] Implement QR barcode generation to SVG in browser
-
-Todo:
-- [ ] Port pdf417 format with unit and browser tests and documentation
-- [ ] Adapt documentation for JSDoc, generate documentation, cleanup source files
-- [ ] Create automatic tests for all major current browsers
-- [ ] Port aztec format with unit and browser tests
-- [ ] Port multi parsing with unit and browser tests and documentation
-- [ ] Port datamatrix format with unit and browser tests and documentation
-- [ ] Port maxicode format with unit and browser tests and documentation
-- [ ] Port oned format with unit and browser tests and documentation
-- [ ] Port client/result parsing with unit and browser tests and documentation
-- [ ] Documentation for using directly from TypeScript
+See [Master Plan Project](https://github.com/aleris/zxing-typescript/projects/1).
 
 
